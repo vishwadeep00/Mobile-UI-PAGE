@@ -155,13 +155,14 @@ nav ul li p {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	
 }
 
-.social-panel ul li {
+.social-panel ul a {
 	margin: 0 10px;
 }
 
-.social-panel ul li a {
+.social-panel ul a {
 	border: 1px solid #DCE1F2;
 	border-radius: 50%;
 	color: #001F61;
@@ -174,7 +175,7 @@ nav ul li p {
 	text-decoration: none;
 }
 
-.social-panel ul li a:hover {
+.social-panel ul a:hover {
 	border-color: #FF6A00;
 	box-shadow: 0 9px 12px -9px #FF6A00;
 }
@@ -232,4 +233,21 @@ nav ul li p {
 	.floating-btn {
 		right: 10px;
 	}
+}
+
+.phone nav ul {
+	justify-content: space-evenly;
+	/* padding: 10px 0px; */
+}
+.phone nav ul a {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	align-items: center;
+	justify-content: center;
+	color: purple;
+	text-decoration: none;
+}
+.phone nav ul a p{
+	margin: 0px;
 }
